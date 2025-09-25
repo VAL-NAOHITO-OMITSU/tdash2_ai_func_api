@@ -65,6 +65,9 @@ FastAPIアプリケーション基盤の構築
   - API_KEY（外部API認証キー）
   - DATABASE_URL（データベース接続情報）
   - DEFAULT_PROMPT_VERSION（プロンプトバージョン管理）
+  - OLLAMA_BASE_URL（Ollama API接続先、デフォルト: http://localhost:11434）
+  - OLLAMA_DEFAULT_MODEL（デフォルトLLMモデル、デフォルト: gpt-oss:20b）
+  - OLLAMA_TIMEOUT（API接続タイムアウト、デフォルト: 120秒）
 - 設定クラス（config.py）の実装
   - BaseSettings継承クラスの作成
   - 各環境変数のデータ型定義
