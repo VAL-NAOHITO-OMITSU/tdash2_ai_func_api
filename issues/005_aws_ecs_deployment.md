@@ -1,4 +1,4 @@
-# Issue #006: AWS ECSデプロイ構成の実装
+# Issue #005: AWS ECSデプロイ構成の実装
 
 ## タイトル
 AWS ECSデプロイ構成の実装
